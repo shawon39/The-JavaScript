@@ -12,15 +12,8 @@
 ---
 
 
-### <a name="section1"></a>A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO 
----
-
-### <a name="section2"></a>A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO 
----
-
-### <a name="section3"></a>A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO  A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO entry! A Heading in this SO  A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO A Heading in this SO 
-
-```
+### <a name="section1"></a> 
+```C++
 // Your First C++ Program
 
 #include <iostream>
@@ -28,4 +21,14 @@
 int main() {
     std::cout << "Hello World!";
     return 0;
-}
+} 
+```
+
+### <a name="section2"></a> 
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
