@@ -1,7 +1,5 @@
 # The JavaScript :)
 
-## Table Of Content
----
 
 - [JavaScript Fundamentals](#section1)
 - [Code quality](#section2)
