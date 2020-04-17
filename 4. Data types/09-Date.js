@@ -49,7 +49,7 @@ setHours(hour, [min], [sec], [ms])
 setMinutes(min, [sec], [ms])
 setSeconds(sec, [ms])
 setMilliseconds(ms)
-setTime(milliseconds) (sets the whole date by milliseconds since 01.01.1970 UTC)
+// setTime(milliseconds) (sets the whole date by milliseconds since 01.01.1970 UTC)
 
 
 // Date.parse from a string
