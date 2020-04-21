@@ -1,4 +1,4 @@
-# The JavaScript :)
+# The JavaScript - :)
 
 
 - [JavaScript Fundamentals](#section1)
