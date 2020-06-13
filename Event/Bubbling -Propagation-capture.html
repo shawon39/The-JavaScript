@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        text-align: center;
+        font-family: cursive;
+      }
+
+      .one {
+        background-color: orange;
+        height: 500px;
+        width: 600px;
+        padding-top: 50px;
+      }
+
+      .two {
+        background-color: rgb(41, 76, 151);
+        height: 350px;
+        width: 500px;
+        margin-left: 50px;
+        padding-top: 50px;
+      }
+
+      .three {
+        background-color: rgb(128, 41, 136);
+        height: 200px;
+        width: 400px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+
+    <div class="one">
+      <span>Div one</span>
+      <div class="two">
+        <span>Div Two</span>
+        <div class="three">
+          <span>Div Three</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const divs = document.querySelectorAll('div');
+
+      function logText(e) {
+        console.log(this.classList.value);
+        e.stopPropagation();
+      }
+      divs.forEach(div => {
+        div.addEventListener('click', logText, {
+          capture: false,
+          once: true
+        })
+      })
+    </script>
+
+  </body>
+
+</html>
